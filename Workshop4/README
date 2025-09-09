@@ -1,1 +1,9 @@
-
+App.tsx
+ไฟล์หลักของโปรเจกต์ React
+กำหนดข้อมูลผู้ใช้ (Array ของ UserData)
+ใช้ UserProfileCard Component แสดงผลผู้ใช้แต่ละคน
+มีฟังก์ชัน handleViewDetails ที่จะ console.log userId เวลากดปุ่มดูรายละเอียด
+App.css
+จัดการ style ของหน้า App
+ใช้ flexbox วางการ์ดผู้ใช้เรียงกันแบบ grid/row
+ใส่ background สีอ่อน และ padding ให้หน้าเว็บดูเป็นระเบียบ

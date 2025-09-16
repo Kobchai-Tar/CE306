@@ -1,0 +1,38 @@
+h2 {
+  font-family: Arial, sans-serif;
+}
+
+.counter-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4fc3f7;
+  margin: 20px 0;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.btn-plus {
+  background-color: #4caf50;
+}
+
+.btn-minus {
+  background-color: #f44336;
+}
+
+.btn-reset {
+  background-color: #ff9800;
+}

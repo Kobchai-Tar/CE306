@@ -1,0 +1,7 @@
+.app-container {
+  @apply bg-gray-100 min-h-screen;
+}
+
+.product-grid {
+  @apply p-6 grid gap-6 md:grid-cols-3;
+}

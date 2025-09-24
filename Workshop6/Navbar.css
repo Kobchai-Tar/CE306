@@ -1,0 +1,31 @@
+.navbar {
+  @apply bg-blue-600 text-white px-6 py-3;
+}
+
+.nav-container {
+  @apply flex justify-between items-center;
+}
+
+.logo {
+  @apply text-xl font-bold;
+}
+
+.menu-desktop {
+  @apply hidden md:flex gap-6;
+}
+
+.menu-desktop li {
+  @apply hover:text-gray-200 cursor-pointer;
+}
+
+.hamburger {
+  @apply md:hidden;
+}
+
+.menu-mobile {
+  @apply flex flex-col gap-3 mt-3 md:hidden bg-blue-500 p-3 rounded-lg;
+}
+
+.menu-mobile li {
+  @apply hover:text-gray-200 cursor-pointer;
+}
